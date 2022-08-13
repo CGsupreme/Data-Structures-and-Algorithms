@@ -31,7 +31,7 @@ class Test{
     public static void main(String[] args) {
         FibonacciRecursion f = new FibonacciRecursion();
         //打印斐波那切数列
-        for(int i = 1 ; i < 10 ; i++){
+        for(int i = 1 ; i <= 10 ; i++){
             System.out.print(f.function(i)+" ");
         }
         //打印斐波那契数列值
